@@ -21,7 +21,7 @@ git commit -m '忽略误提交的.idea文件夹'
 git push -u origin 分支名
 ```
 4.在.gitignore文件中加上(排除.idea文件夹)
-```pydocstring
+```python
 **/.idea
 ```
 
