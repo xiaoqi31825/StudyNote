@@ -20,8 +20,10 @@ git push -u origin 分支名
 ```
 
 ### 2、push报错: Failed to connect to github.com port 443 after 21090 ms: Couldn't connect to server
-#### 原因
-可能是因为开启了某些网络代理(如翻墙软件)导致的,关闭网络代理后重新推送。
+#### 原因1
+可能是因为开启了某些网络代理(如翻墙软件)导致的, 关闭网络代理后重新推送。
+##### 原因2
+可能是网络信息差(如连接的是手机热点)导致的, 开启翻墙软件重新推送。
 
 
 ### 3、git clone SSH项目链接报错: Failed to connect to github.com port 443: Connection timed out
